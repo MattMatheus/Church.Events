@@ -1,59 +1,30 @@
-<div class="container py-2"> 
-  <div class="row">
-    <div class="col"></div> 
-    <div class="col-md-6">
-      <nav class="navbar navbar-expand navbar-light bg-light">
-        <div class="container">
-          <div class="collapse navbar-collapse justify-content-center" id="navbarScroll">
-            <ul class="navbar-nav my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Submit Event</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  About
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                  <li><a class="dropdown-item" href="#">About Church.Events</a></li>
-                  <li><a class="dropdown-item" href="#">Summit Christian Church</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Follow Jesus</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Login</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </div>
-    <div class="col"></div>
-  </div>
+<div class="d-flex justify-content-center">
+  <app-navigation></app-navigation>
 </div>
-<div class="row">
+
+<div class="d-flex justify-content-center">
   <div class="container-fluid text-center py-3">
     <a class="navbar-brand">
       <h1>Church.Events</h1>
     </a>
   </div>
 </div>
+
 <div class="row">
-  <div clas="col"></div>
-  <div class="container">
-    <app-mapbox></app-mapbox>
+  <div class="d-flex justify-content-center py-3">
+    <app-searchbox></app-searchbox>
   </div>
-  <div class="col"></div>
+</div>
+
+<div class="row">
+  <div class="d-flex justify-content-center">
+    <app-eventlist></app-eventlist>
+  </div>
 </div>
 <div class="row">
-  <div clas="col"></div>
-  <div class="container">
+  <div class="d-flex justify-content-center p-3">
     <app-footertext></app-footertext>
   </div>
-  <div class="col"></div>
 </div>
 
 

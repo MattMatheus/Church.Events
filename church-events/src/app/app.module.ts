@@ -6,12 +6,18 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MapboxComponent } from './mapbox/mapbox.component';
 import { FootertextComponent } from './footertext/footertext.component';
+import { NavigationComponent } from './navigation/navigation.component';
+import { SearchboxComponent } from './searchbox/searchbox.component';
+import { EventlistComponent } from './eventlist/eventlist.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MapboxComponent,
-    FootertextComponent
+    FootertextComponent,
+    NavigationComponent,
+    SearchboxComponent,
+    EventlistComponent
   ],
   imports: [
     BrowserModule,
