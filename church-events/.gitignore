@@ -40,3 +40,6 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# Local Env Files
+/church-events/src/environments/environment.development.ts
